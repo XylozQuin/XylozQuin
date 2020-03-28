@@ -1,0 +1,28 @@
+var iFileName = "Paladin - SpellsList.js";
+	SpellsList["Spirit Shroud"] = {
+	name : "Spirit Shroud",
+	classes : ["paladin"],
+	level : 3,
+	school : "Necro",
+	time : "1 bns",
+	range : "10 ft",
+	components : "V,S",
+	duration : "Conc, 1 min",
+	description : "+1d8 dmg on hit to creature within 10ft (Radiant if Good, Necrotic if Evil)",
+	descriptionFull : "You call forth spirits of the dead, which flit around you for the spell’s duration. " + "\n   " + "The spirits are intangible and invulnerable, and they are good or evil (your choice). Until the spell ends, any attack you make deals 1d8 extra damage when you hit a creature within 10 feet of you. " + "\n   " + "This damage is radiant if the spirits are good and necrotic if they are evil. " + "\n   " + "Any creature that takes this damage can’t regain hit points until the start of your next turn. In addition, any creature of your choice that you can see that starts its turn within 10 feet of you has its speed reduced by 10 feet until the start of your next turn. " + "\n   " + AtHigherLevels + " When you cast this spell using a spell slot of 4th level or higher, the extra damage increases by 1d8 for each slot level above 3rd.",
+ritual : false	
+};
+	SpellsList["Summon Celestial Spirit"] = {
+	name : "Summon Celestial Spirit",
+	classes : ["paladin"],
+	level : 5,
+	school : "Conj",
+	time : "1 a",
+	range : "90 ft",
+	components : "V,S,M\u2020",
+	compMaterial : "A golden reliquary worth at least 500 gp, Which the spell Consumes",
+         duration : "Conc, 1 h",
+	description : "+1d8 to damage  on hit to creat within 10ft radiant if good Necrotic if evil",
+	descriptionFull : "You call forth a spirit from the Upper Planes. The spirit manifests physically in an angelic form in an unoccupied space that you can see withinrange. " + "\n   " + "This corporeal form uses the Celestial Spirit stat block below.  " + "\n   " + "   STR 16 (+3)   " + "\n   " + "   DEX 14 (+2)  " + "\n   " + "   CON 16 (+3)  " + "\n   " + "   INT 10 (+0)  " + "\n   " + "   WIS 14 (+2)  " + "\n   " + "   CHA 16 (+3) " + "\n   " + "When you cast the spell, choose Avenger or Defender. Your choice determines the creature’s attack in its stat block.The creature disappears when it drops to 0 hit points or when the spell ends.The creature is friendly to you and your companions for the spell’s duration. " + "\n   " + "In combat, the creature shares your initiative count, but it takes its turn immediately after yours. It obeys verbal commands that you issue to it (no action required by you). If you don’t issue any, it defends itself but otherwise takes no action. " + "\n   " + AtHigherLevels + "When you cast this spell using a spell slot of 6th level or higher, the creature assumes the higher level for that casting wherever it uses the spell’s level in its stat block.",
+ritual : false	
+};
