@@ -22,7 +22,7 @@ ritual : false
 	components : "V,S,M",
 	compMaterial : "A golden reliquary worth at least 500 gp",
          duration : "Conc, 1 h",
-	description : "+1d8 to damage  on hit to creat within 10ft radiant if good Necrotic if evil",
+	description : "Summon a celestial spirit (Defender = Healer / Avenger= Attacker"),
 	descriptionFull : "You call forth a spirit from the Upper Planes. The spirit manifests physically in an angelic form in an unoccupied space that you can see withinrange. " + "\n   " + "This corporeal form uses the Celestial Spirit stat block below.  " + "\n   " + "   STR 16 (+3)   " + "\n   " + "   DEX 14 (+2)  " + "\n   " + "   CON 16 (+3)  " + "\n   " + "   INT 10 (+0)  " + "\n   " + "   WIS 14 (+2)  " + "\n   " + "   CHA 16 (+3) " + "\n   " + "When you cast the spell, choose Avenger or Defender. Your choice determines the creature’s attack in its stat block.The creature disappears when it drops to 0 hit points or when the spell ends.The creature is friendly to you and your companions for the spell’s duration. " + "\n   " + "In combat, the creature shares your initiative count, but it takes its turn immediately after yours. It obeys verbal commands that you issue to it (no action required by you). If you don’t issue any, it defends itself but otherwise takes no action. " + "\n   " + AtHigherLevels + "When you cast this spell using a spell slot of 6th level or higher, the creature assumes the higher level for that casting wherever it uses the spell’s level in its stat block.",
 ritual : false	
 };
